@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Ashok's Cybersecurity Writeups</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            min-height: 100vh;
+            background-color: #1e1e1e; /* Dark grey background */
+            color: #d1d1d1;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background-color: #2c2c2c; /* Slightly lighter grey for sidebar */
+            color: #d1d1d1;
+            padding: 20px;
+        }
+
+        .sidebar h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #f4f4f4; /* Light grey for better contrast */
+        }
+
+        .sidebar p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #a9a9a9;
+        }
+
+        .linkedin {
+            display: flex;
+            align-items: center;
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .linkedin:hover {
+            color: #71a7e5;
+        }
+
+        .linkedin img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        .nav {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .nav li {
+            margin-bottom: 10px;
+        }
+
+        .nav a {
+            color: #d1d1d1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav a:hover {
+            color: #f4f4f4;
+        }
+
+        /* Main content */
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        .main-content h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #f4f4f4;
+        }
+
+        .writeup {
+            background-color: #333; /* Dark grey for writeup container */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .writeup h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #e5e5e5; /* Light grey for headings */
+        }
+
+        .writeup p {
+            color: #b0b0b0; /* Light grey for paragraph text */
+            line-height: 1.6;
+        }
+
+        .writeup a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #4a90e2; /* Light blue for links */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .writeup a:hover {
+            color: #71a7e5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Arjun Ashok</h2>
+        <p>Security Enginner | Security Researcher</p>
+        
+        <!-- LinkedIn Profile Link with Icon -->
+        <a class="linkedin" href="https://www.linkedin.com/in/arjun-ashok-a71823169" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+            LinkedIn Profile
+        </a>
+
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#writeups">Writeups</a></li>
+            <li><a href="#about">About</a></li>
+            
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Writeups</h1>
+
+        <!-- Sample Writeup 1 -->
+        <div class="writeup">
+            <h3> Maintaining Persistance in Azure through Application Injection Using GraphRunner Tool</h3>
+            <p>A look at how attackers maintain stealthy access by injecting applications on behalf of compromised users using GraphRunner.</p>
+            <a href="writeups/Azure App Injection.md" target="_blank">Read More</a>
+        </div>
+
+      
+        <!-- Add more writeups here -->
+    </div>
+
+</body>
+</html>
